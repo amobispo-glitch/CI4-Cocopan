@@ -10,7 +10,7 @@
 
 
 ## Features
-- Browse and search computer hardware products
-- User authentication and registration
+- Browse and search Cocopan products
+- Product Showcase Grid
 - Shopping cart and checkout
 - Admin dashboard for inventory management
