@@ -8,7 +8,7 @@
         <h1 class="text-2xl font-bold">Cocopan</h1>
       </a>
 
-      <a href="#moodboard" class="underline-animate font-semibold text-yellow-400 hover:text-yellow-300 transition">
+      <a href="moodboard" class="underline-animate font-semibold text-yellow-400 hover:text-yellow-300 transition">
         Moodboard
       </a>
     </div>
