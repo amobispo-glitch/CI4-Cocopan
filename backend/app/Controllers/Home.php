@@ -9,5 +9,4 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    
 }
