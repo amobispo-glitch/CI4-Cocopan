@@ -107,8 +107,8 @@
           8
         </div>
         <div class="bg-amber-100 rounded-xl p-6 shadow-lg">
-          <h2 class="text-2xl font-bold text-yellow-700 mb-2">Phase 8: Accessibility & Performance Enhancements</h2>
-          <p class="text-gray-700 mb-2">Improve accessibility (contrast, ARIA labels, keyboard navigation) and performance through advanced optimization and lazy loading for images and animations.</p>
+          <h2 class="text-2xl font-bold text-yellow-700 mb-2">Phase 8: User Profile Management (CRUD)</h2>
+          <p class="text-gray-700 mb-2">Users can register and create their profile with personal details and edit profile information like name, email, or password.</p>
           <p class="text-sm text-gray-500">Status: Planned</p>
         </div>
       </div>
