@@ -109,39 +109,13 @@
 
       <div class="grid md:grid-cols-3 gap-10 justify-center">
         <!-- Card 1 -->
-        <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
-          <div class="p-6">
-            <h3 class="text-2xl font-bold text-[#EAB308] mb-2">Signature Coffee</h3>
-            <p class="text-gray-600 mb-4">Freshly brewed to perfection — enjoy it hot or iced, any time of the day.</p>
-          </div>
-          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Coffee" class="w-full h-48 object-cover">
-        </div>
+        <?= view('components/cards/productCard', ['image' => null, 'title' => "Freshly Baked Bread", 'text' => "Crispy outside, soft inside — baked with love daily."]) ?>
 
         <!-- Card 2 -->
-        <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
-          <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80" alt="Bread" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-bold text-[#EAB308] mb-2">Freshly Baked Bread</h3>
-            <p class="text-gray-600 mb-4">Golden crust, soft inside — baked daily with love and care to warm your mornings.</p>
-            <button class="bg-[#EAB308] hover:bg-[#CA8A04] text-black font-semibold px-4 py-2 rounded-full shadow transition">
-              Learn More
-            </button>
-          </div>
-        </div>
+        <?= view('components/cards/productCard2', ['image' => null, 'title' => "Freshly Baked Bread", 'text' => "Crispy outside, soft inside — baked with love daily."]) ?>
 
         <!-- Card 3 -->
-        <div class="max-w-sm mx-auto bg-[#FFF8E1] border border-[#EAB308]/40 rounded-2xl shadow-lg p-6 flex flex-col justify-between hover:shadow-xl hover:-translate-y-1 transition">
-          <div>
-            <h3 class="text-2xl font-bold text-[#0F172A] mb-3">Featured Pastry</h3>
-            <p class="text-gray-600 mb-4">A buttery croissant with a golden glaze — perfect with your morning brew.</p>
-          </div>
-          <div class="relative">
-            <img src="https://www.kawalingpinoy.com/wp-content/uploads/2018/04/filipino-pan-de-coco-480x270.jpg" alt="Pastry" class="rounded-xl w-full h-40 object-cover mb-3">
-            <button class="absolute bottom-3 right-3 bg-[#EAB308] hover:bg-[#CA8A04] text-black font-semibold px-3 py-1 rounded-full shadow">
-              Order Now
-            </button>
-          </div>
-        </div>
+        <?= view('components/cards/productCard3', ['image' => null, 'title' => "Freshly Baked Bread", 'text' => "Crispy outside, soft inside — baked with love daily."]) ?>
       </div>
 
       <!-- 🧁 Logo Section with Two Formats -->
