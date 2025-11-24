@@ -12,7 +12,7 @@
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-2">Create Your Account</h2>
       <p class="text-center text-gray-600 mb-6">Join Cocopan and enjoy freshly baked goodness!</p>
 
-      <form action="/signup/submit" method="POST" class="space-y-5">
+      <form action="register" method="POST" class="space-y-5">
         <div>
           <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
           <input type="text" id="name" name="name" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-yellow-400 focus:outline-none">
@@ -32,10 +32,7 @@
           <label for="confirm_password" class="block text-sm font-medium text-gray-700 mb-1">Confirm Password</label>
           <input type="password" id="confirm_password" name="confirm_password" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-yellow-400 focus:outline-none">
         </div>
-
-        <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 rounded-lg shadow transition">
-          Sign Up
-        </button>
+        <input type="submit" value="Sign Up" class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 rounded-lg shadow transition">
       </form>
 
       <p class="text-center text-gray-600 mt-6 text-sm">

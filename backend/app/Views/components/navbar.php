@@ -1,3 +1,9 @@
+<?php 
+$session = session();
+
+?>
+
+
 <nav id="navbar" class="fixed top-0 left-0 w-full flex justify-between items-center px-8 py-4 bg-transparent text-white z-50 transition-all duration-300">
   <!-- Left side: Logo + Cocopan + Moodboard + Road Map -->
   <div class="flex items-center space-x-6">
@@ -10,7 +16,9 @@
   </div>
 
   <!-- Right side: Log In + Sign Up -->
+   <?php if(empty($session->get('id'))): ?>
   <div class="space-x-4">
+
     <a href="login" class="border border-yellow-500 hover:bg-yellow-500 hover:text-black px-4 py-2 rounded-full font-semibold transition">
       Log In
     </a>
@@ -18,6 +26,21 @@
       Sign Up
     </a>
   </div>
+
+  <?php else: ?>
+    <div class="space-x-4 flex align-items-center justify-center">
+    
+    <p class ="mt-2">
+      <?= esc($session->get('display_name')) ?>
+    </p>
+
+    <a href='logout' class="bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-full font-semibold transition">
+      Log Out
+    </a>
+  </div>
+  <?php endif; ?>
+    
+
 </nav>
 
 <script>

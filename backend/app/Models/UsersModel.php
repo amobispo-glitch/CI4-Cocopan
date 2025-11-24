@@ -3,12 +3,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ModelNameDito extends Model
+class UsersModel extends Model
 {
-    protected $table            = 'tableNameHere';
+    protected $table            = 'usertable';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $returnType       = '\App\Entities\User';
+    protected $returnType       = 'App\Entities\User';
     protected $useSoftDeletes   = true;
     protected $protectFields    = true;
     protected $allowedFields    = ['name', 'email', 'password'];   
