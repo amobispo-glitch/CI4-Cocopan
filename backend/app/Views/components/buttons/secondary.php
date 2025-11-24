@@ -1,0 +1,1 @@
+<button class="border border-[#EAB308] text-[#EAB308] hover:bg-[#EAB308] hover:text-black font-semibold px-6 py-3 rounded-full transition">Secondary</button>

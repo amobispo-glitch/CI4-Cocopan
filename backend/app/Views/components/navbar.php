@@ -7,16 +7,6 @@
            class="w-10 h-10 rounded-full object-cover">
       <h1 class="text-2xl font-bold">Cocopan</h1>
     </a>
-
-    <!-- Moodboard Link -->
-    <a href="moodboard" class="underline-animate font-semibold text-yellow-400 hover:text-yellow-300 transition">
-      Moodboard
-    </a>
-
-    <!-- ✅ Road Map Link -->
-    <a href="roadmap" class="underline-animate font-semibold text-yellow-400 hover:text-yellow-300 transition">
-      Road Map
-    </a>
   </div>
 
   <!-- Right side: Log In + Sign Up -->

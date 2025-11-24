@@ -81,10 +81,10 @@
         Button Set
       </h2>
       <div class="flex flex-wrap justify-center gap-6">
-        <button class="bg-[#EAB308] hover:bg-[#CA8A04] text-black font-semibold px-6 py-3 rounded-full shadow transition">Primary</button>
-        <button class="border border-[#EAB308] text-[#EAB308] hover:bg-[#EAB308] hover:text-black font-semibold px-6 py-3 rounded-full transition">Secondary</button>
-        <button class="border-2 border-gray-400 text-gray-600 px-6 py-3 rounded-full font-semibold">Bordered</button>
-        <button class="bg-gray-300 text-gray-600 px-6 py-3 rounded-full font-semibold cursor-not-allowed">Disabled</button>
+        <?= view('components/buttons/primary') ?>
+        <?= view('components/buttons/secondary') ?>
+        <?= view('components/buttons/bordered') ?>
+        <?= view('components/buttons/disabled') ?>
       </div>
     </div>
 
@@ -144,6 +144,9 @@
       </div>
     </div>
   </section>
+  
+  <!-- Call to Action -->
+  <?= view('components/cta') ?>
 
   <!-- Footer -->
   <?= view('components/footer') ?>

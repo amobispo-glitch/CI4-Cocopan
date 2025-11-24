@@ -1,0 +1,1 @@
+<button class="bg-[#EAB308] hover:bg-[#CA8A04] text-black font-semibold px-6 py-3 rounded-full shadow transition">Primary</button>
