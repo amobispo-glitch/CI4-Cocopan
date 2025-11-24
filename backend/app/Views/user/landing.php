@@ -36,6 +36,8 @@
     </p>
   </section>
   <!-- About -->
+  <?= view('components/cta') ?>
+
   <?= view('components/footer') ?>
 
   <!-- Navbar Scroll Script -->

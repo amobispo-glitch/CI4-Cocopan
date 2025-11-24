@@ -1,0 +1,1 @@
+<button class="bg-gray-300 text-gray-600 px-6 py-3 rounded-full font-semibold cursor-not-allowed">Disabled</button>

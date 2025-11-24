@@ -115,7 +115,7 @@
 
     </div>
   </section>
-
+  <?= view('components/cta') ?>
   <!-- Footer -->
   <?= view('components/footer') ?>
 

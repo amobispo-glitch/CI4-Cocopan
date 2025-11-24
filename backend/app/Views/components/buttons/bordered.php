@@ -1,0 +1,1 @@
+<button class="border-2 border-gray-400 text-gray-600 px-6 py-3 rounded-full font-semibold">Bordered</button>
