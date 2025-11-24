@@ -9,12 +9,14 @@ class ClearDatabaseSeeder extends Seeder
     public function run()
     {
         $db      = \Config\Database::connect();
-        $builder = $db->table('funeral_requests');
-        $builder = $db->table('users');
+        $builder = $db->table('usertable');
+        
 
         // Use disableForeignKeyChecks if supported by the DB to avoid FK issues
         $db->disableForeignKeyChecks();
         $builder->truncate();
         $db->enableForeignKeyChecks();
+
+
     }
 }
