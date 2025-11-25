@@ -1,3 +1,10 @@
+
+
+<?php
+$session = session();
+$errors = $session->getFlashdata('errors');
+?>
+
 <?= view('components/header') ?>
 <body class="font-sans text-gray-900 bg-gray-50">
 
@@ -14,6 +21,17 @@
     <div class="relative z-10 bg-white/95 backdrop-blur-md rounded-2xl shadow-lg p-10 w-full max-w-md">
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-2">Welcome Back!</h2>
       <p class="text-center text-gray-600 mb-6">Log in to your Cocopan account</p>
+      
+      <?php if (!empty($errors)): ?>
+        <div class="mb-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+          <ul class="list-disc list-inside">
+            <?php foreach ($errors as $error): ?>
+              <li><?= esc($error) ?></li>
+            <?php endforeach; ?>
+          </ul>
+        </div>
+        <?php endif; ?>
+
 
       <form action= "login" method="POST" class="space-y-5">
         <div>
